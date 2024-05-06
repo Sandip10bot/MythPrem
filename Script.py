@@ -31,11 +31,11 @@ Here You Can Find Many <b>Mythology</b> Serials.
     ABOUT_TXT = """<b><blockquote>Here Is My Details</blockquote>
     
 ‣ My Name : <a href=https://t.me/{}>{}</a>
-‣ Best Friend: <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
-‣ My Developer : <a href='https://t.me/kingvj01'>ᴛᴇᴄʜ ᴠᴊ</a> 
-‣ Library : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
-‣ Language : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
-‣ Database : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
+‣ Best Friend: <a href='tg://settings'>This Person</a> 
+‣ My Developer : <a href='https://t.me/Sandip10x'>Sαɳԃιρ</a> 
+‣ Library : <a href='https://docs.pyrogram.org/'>Pyrogram</a> 
+‣ Language : <a href='https://www.python.org/download/releases/3.0/'>Python 3</a> 
+‣ Database : <a href='https://www.mongodb.com/'>Mongo DB</a> 
 ‣ Server : <a href='https://koyeb.com'>Koyeb</a> 
 ‣ Build Status : ᴠ2.7.1 [sᴛᴀʙʟᴇ]></b>"""
 
