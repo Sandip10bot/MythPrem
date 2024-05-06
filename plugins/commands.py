@@ -65,7 +65,7 @@ async def start(client, message):
             ],[
                 InlineKeyboardButton('🧲 Get Subscription ', callback_data='subscription')
             ],[
-                InlineKeyboardButton('Update Channel 🔥', url='https://t.me/Radhakriishn'
+                InlineKeyboardButton('Update Channel 🔥', url='https://t.me/Radhakriishn') 
             ]]
         else:
             buttons = [[
