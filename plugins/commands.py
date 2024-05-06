@@ -76,7 +76,7 @@ async def start(client, message):
             ],[
                 InlineKeyboardButton('🧲 Get Subscription ', callback_data='subscription')
             ],[
-                InlineKeyboardButton('Update Channel 🔥', url='https://t.me/Radhakriishn'
+                InlineKeyboardButton('Update Channel 🔥', url='https://t.me/Radhakriishn') 
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgUAAxkBAAEKVaxlCWGs1Ri6ti45xliLiUeweCnu4AACBAADwSQxMYnlHW4Ls8gQMAQ") 
@@ -128,7 +128,7 @@ async def start(client, message):
             ],[
                 InlineKeyboardButton('🧲 Get Subscription ', callback_data='subscription')
             ],[
-                InlineKeyboardButton('Update Channel 🔥', url='https://t.me/Radhakriishn'
+                InlineKeyboardButton('Update Channel 🔥', url='https://t.me/Radhakriishn') 
             ]]
         else:
             buttons = [[
@@ -139,7 +139,7 @@ async def start(client, message):
             ],[
                 InlineKeyboardButton('🧲 Get Subscription ', callback_data='subscription')
             ],[
-                InlineKeyboardButton('Update Channel 🔥', url='https://t.me/Radhakriishn'
+                InlineKeyboardButton('Update Channel 🔥', url='https://t.me/Radhakriishn') 
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
@@ -177,7 +177,7 @@ async def start(client, message):
             ],[
                 InlineKeyboardButton('🧲 Get Subscription ', callback_data='subscription')
             ],[
-                InlineKeyboardButton('Update Channel 🔥', url='https://t.me/Radhakriishn'
+                InlineKeyboardButton('Update Channel 🔥', url='https://t.me/Radhakriishn') 
             ]]
             else:
                 buttons = [[
@@ -188,7 +188,7 @@ async def start(client, message):
             ],[
                 InlineKeyboardButton('🧲 Get Subscription ', callback_data='subscription')
             ],[
-                InlineKeyboardButton('Update Channel 🔥', url='https://t.me/Radhakriishn'
+                InlineKeyboardButton('Update Channel 🔥', url='https://t.me/Radhakriishn') 
             ]]
             reply_markup = InlineKeyboardMarkup(buttons)
             m=await message.reply_sticker("CAACAgUAAxkBAAEKVaxlCWGs1Ri6ti45xliLiUeweCnu4AACBAADwSQxMYnlHW4Ls8gQMAQ") 
