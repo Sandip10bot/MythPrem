@@ -61,7 +61,7 @@ PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', True)) #
 REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '20')) # number of referal count
 REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '1month')
 PAYMENT_QR = environ.get('PAYMENT_QR', 'https://graph.org/file/76ca16cbf2743324828a3.jpg')
-PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<b> Here Is Available Plan \n\n• Rs.10 1 Week \n• Rs.20 - 1 Month\n\n🎁 Premium Feature 🎁\n\n○ No Ads\n○ Direct Files\n ✨ Buy Subscription - @SR_Contact_Bot \n\nCheck Your Active Plan 👉 /myplan\n\nThank You 😍</b>')
+PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<b> Here Is Available Plan \n\n• Rs.10 = 1 Week \n• Rs.20 = 1 Month\n\n🤩 Premium Feature 🥳\n\n○ ❌ No Ads\n○ Direct Files 📂\n\n ✨ Buy Subscription - @SR_Contact_Bot \n\nCheck Your Active Plan 👉 /myplan\n\n\nThank You 😍</b>')
 OWNER_USERNAME = environ.get('OWNER_USERNAME', 'Sandip10x') # owner username without @
 
 # Links
@@ -98,7 +98,7 @@ SHORTLINK_API = environ.get('SHORTLINK_API', '00da194554d8396caed7e76ddb6a27cd99
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 PORT = environ.get("PORT", "8080")
-MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friends ❤️')
+MSG_ALRT = environ.get('MSG_ALRT', 'Thanks To @Sandip10x ❤️')
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.IMDB_TEMPLATE_TXT}")
