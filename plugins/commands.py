@@ -394,7 +394,7 @@ async def start(client, message):
         files_ = await get_file_details(file_id)
         files = files_[0]
         g = await get_shortlink(chat_id, f"https://telegram.me/{temp.U_NAME}?start=file_{file_id}")
-        k = await client.send_message(chat_id=user,text=f"<b>📕 Nᴀᴍᴇ ➠ :</b> <code>{files.file_name}</code>\n\n🔗 <b>Sɪᴢᴇ ➠ :</b> {get_size(files.file_size)}\n\n📂 <b>Fɪʟᴇ Lɪɴᴋ ➠ :</b> {g}\n\n<b>Note</b>: This message is deleted in 20 mins to avoid copyrights. Save the link to Somewhere else.", reply_markup=InlineKeyboardMarkup(
+        k = await client.send_message(chat_id=user,text=f"<b>📕 Nᴀᴍᴇ ➠ :</b> <code>{files.file_name}</code>\n\n🔗 <b>Sɪᴢᴇ ➠ :</b> {get_size(files.file_size)}\n\n📂 <b>Fɪʟᴇ Lɪɴᴋ ➠ :</b> {g}\n\n<b>Note</b>: This message will delete in 20 mins to avoid copyrights. Save the link to Somewhere else.", reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton('📂 Dᴏᴡɴʟᴏᴀᴅ Nᴏᴡ 📂', url=g)
@@ -475,7 +475,7 @@ async def start(client, message):
             files_ = await get_file_details(file_id)
             files = files_[0]
             g = await get_shortlink(chat_id, f"https://telegram.me/{temp.U_NAME}?start=file_{file_id}")
-            k = await client.send_message(chat_id=message.from_user.id,text=f"<b>📕 Nᴀᴍᴇ ➠ :</b> <code>{files.file_name}</code>\n\n🔗 <b>Sɪᴢᴇ ➠ :</b> {get_size(files.file_size)}\n\n📂 <b>Fɪʟᴇ ʟɪɴᴋ ➠ :</b> {g}\n\n<b>Note:</b> This message is deleted in 20 mins to avoid copyrights. Save the link to Somewhere else.", reply_markup=InlineKeyboardMarkup(
+            k = await client.send_message(chat_id=message.from_user.id,text=f"<b>📕 Nᴀᴍᴇ ➠ :</b> <code>{files.file_name}</code>\n\n🔗 <b>Sɪᴢᴇ ➠ :</b> {get_size(files.file_size)}\n\n📂 <b>Fɪʟᴇ ʟɪɴᴋ ➠ :</b> {g}\n\n<b>Note:</b> This message will delete in 20 mins to avoid copyrights. Save the link to Somewhere else.", reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton('📂 Dᴏᴡɴʟᴏᴀᴅ Nᴏᴡ 📂', url=g)
@@ -520,13 +520,11 @@ async def start(client, message):
                 protect_content=True if pre == 'filep' else False,
                 reply_markup=InlineKeyboardMarkup(button)
             )
-            files = files_[0]
             filetype = msg.media
             file = getattr(msg, filetype.value)
             title = '⚜️ (@MythoSerialBot) -' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
             size=get_size(file.file_size)
-            f_caption = files.caption
-            #f_caption = f"<b>{title} ✨</b>"
+            f_caption = f"<b>{title} ✨</b>"
             if CUSTOM_FILE_CAPTION:
                 try:
                     f_caption=CUSTOM_FILE_CAPTION.format(file_name= '' if title is None else title, file_size='' if size is None else size, file_caption='')
@@ -542,7 +540,7 @@ async def start(client, message):
             k = await msg.reply("<b>File Will Delete In 10 Min Please Forward It !! 💊</b>",quote=True)
             await asyncio.sleep(600)
             await msg.delete()
-            await k.edit_text("<b>Your File/Video is successfully deleted!!!\n\nClick below button to get your deleted file 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
+            await k.edit_text("<b>Your File/Video is successfully deleted to avoid copyright!!!. Click below button to get your deleted file. 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
             return
         except:
             pass
@@ -593,7 +591,7 @@ async def start(client, message):
     k = await msg.reply("<b>File Will Delete In 10 Min Please Forward It !! 💊</b>",quote=True)
     await asyncio.sleep(600)
     await msg.delete()
-    await k.edit_text("<b>Your File/Video is successfully deleted!!!\n\nClick below button to get your deleted file 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
+    await k.edit_text("<b>Your File/Video is successfully deleted to avoid copyright!!!. Click below button to get your deleted file. 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
     return   
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
