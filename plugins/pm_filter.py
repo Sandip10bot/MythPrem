@@ -160,35 +160,35 @@ async def next_page(bot, query):
 
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'ǫᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("ᴇᴘɪsᴏᴅᴇs", callback_data=f"episodes#{key}"),
-                InlineKeyboardButton("sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}")
+                InlineKeyboardButton(f'Quality', callback_data=f"qualities#{key}"),
+                InlineKeyboardButton("Episode", callback_data=f"episodes#{key}"),
+                InlineKeyboardButton("Season",  callback_data=f"seasons#{key}")
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("sᴇʟᴇᴄᴛ 👉", callback_data="select"),
-            InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}")
+            InlineKeyboardButton("Select 👇", callback_data="select"),
+            InlineKeyboardButton("Language", callback_data=f"languages#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("Sᴛᴀʀᴛ Bᴏᴛ", url=f"https://telegram.me/{temp.U_NAME}"),
-            InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton("Start Bot", url=f"https://telegram.me/{temp.U_NAME}"),
+            InlineKeyboardButton("Send All", callback_data=f"sendfiles#{key}")
         ])
     else:
         btn = []
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'ǫᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("ᴇᴘɪsᴏᴅᴇs", callback_data=f"episodes#{key}"),
-                InlineKeyboardButton("sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}")
+                InlineKeyboardButton(f'Quality', callback_data=f"qualities#{key}"),
+                InlineKeyboardButton("Episode", callback_data=f"episodes#{key}"),
+                InlineKeyboardButton("Seasons",  callback_data=f"seasons#{key}")
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("sᴇʟᴇᴄᴛ 👉", callback_data="select"),
-            InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}")
+            InlineKeyboardButton("Select", callback_data="select"),
+            InlineKeyboardButton("Language", callback_data=f"languages#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("Sᴛᴀʀᴛ Bᴏᴛ", url=f"https://telegram.me/{temp.U_NAME}"),
-            InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton("Start Bot", url=f"https://telegram.me/{temp.U_NAME}"),
+            InlineKeyboardButton("Send All", callback_data=f"sendfiles#{key}")
         ])
     try:
         if settings['max_btn']:
