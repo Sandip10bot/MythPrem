@@ -1492,3 +1492,57 @@ async def check_plans_cmd(client, message):
         await message.reply_text(f"**😢 You Don't Have Any Premium Subscription.\n\n Check Out Our Premium /plan**",reply_markup=reply_markup)
         await asyncio.sleep(2)
         await m.delete()
+@Client.on_message(filters.command("serials"))
+async def availableserial(bot, message):
+    await message.reply_text(SERIALS)     
+ 
+SERIALS = """<b>Here is Available Serial</b> ✨
+
+╭━━ List Of Available Serial 🎭 ━
+┣
+┣ <b>Radhakrishn</b> ➺ 【✅】
+┣ <b>Mahabharat 2013</b> ➺ 【✅】
+┣ <b>Buddha</b> ➺【✅】
+┣ <b>Ramayan</b> ➺ 【✅】
+┣ <b>Jai Kanhaiya Lal ki</b> ➺【✅】
+┣ <b>Shri...Mahapuran</b> ➺【✅】
+┣ <b>Meera</b> ➺ 【✅】
+┣ <b>Jai Deva Shree Ganesha</b> ➺ 【✅】
+┣ <b>Mahishasur Vadh</b> ➺ 【✅】
+┣ <b>Ramyug</b> ➺ 【✅】
+┣ <b>YMKN</b> ➺【✅】
+┣ <b>Brij Ke Gopal</b> ➺【✅】
+┣ <b>KBMGKS</b> ➺ 【✅】
+┣ <b>Maa Vaishnodevi</b> ➺【✅】
+┣ <b>DeviAadiparashakti</b> ➺【✅】
+┣ <b>The Legend Of Hanuman</b> ➺【✅】
+┣ <b>Little Krishna</b> ➺ 【✅】
+┣ <b>Parshuram</b> ➺ 【✅】
+┣ <b>Karn Sangini</b> ➺ 【✅】
+┣ <b>Kashibai</b> ➺【✅】
+┣ <b>Namah Laxmi Narayan</b> ➺【✅】
+┣ <b>Uttar Ramayan</b> ➺【✅】
+┣ <b>Krishna Balram</b> ➺【✅】
+┣ <b>Shiv Mahapuran</b> ➺【✅】
+┣ <b>Jai Mahalakshmi</b> ➺【✅】
+┣ <b>Mahabharata 1988</b> ➺【✅】
+┣ <b>Maa Shakti</b> ➺【✅】
+┣ <b>Kahat Hanuman</b> ➺【✅】
+┣ <b>Dwarkadheesh</b> ➺ 【✅】
+┣ <b>Shri Krishna</b> ➺ 【✅】
+┣ <b>Mahakaali</b> ➺ 【 22 / 95 】
+┣ <b>Dhruv Tara</b> ➺ 【 100 / ♾ 】
+┣ <b>The Adventures Of Hatim</b> ➺【✅】
+┣ <b>AliBaba</b> ➺【✅】
+┣ <b>Baal Shiv</b> ➺ 【 30 / 215 】
+┣ <b>Devo..Mahaadev</b> ➺【 439 / 820 】
+┣ <b>Suryaputra Karn</b> ➺ 【 240 / 307 】
+┣ <b>Dharm Yoddha Garud</b> ➺ 【 soon 】
+┣ 
+┣ <b>Many More Soon..🔥</b>
+┣ 
+╰━━━━━━━━━━━━━━━
+
+This Chart Shows, Uploaded ✅ Serial And Their Status ⏳
+<b>Thank you</b> 🎭
+"""
