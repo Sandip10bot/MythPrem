@@ -40,13 +40,15 @@ Here You Can Find Many <b>Mythology</b> Serials.
 ‣ Build Status : ᴠ2.7.1 [sᴛᴀʙʟᴇ]></b>"""
 
     SUBSCRIPTION_TXT = """
-<b>Refer Your Link To Your Friend Circle !! Get Free Premium Of This Bot!! 😍 {}
+<blockquote>Refer Your Link To Your Friend Circle !!</blockquote> <b>& Get Free Premium Of This Bot!!</b> 😍 {}
 
-Refer Link - https://telegram.me/{}?start=VJ-{}
+<b>Refer Link 😎</b> - https://telegram.me/{}?start=Sandip-{}
 
-If {} Unique User Start The Bot With Your Refferal Link Then You Will Automatically Added In Premium List!! 😍 .
+If {} Unique User Start The Bot With Your Refferal Link Then You Will Automatically Add In **Premium** List!! 😍 .
 
-Buy Paid Plans 👉 - /plan</b>"""
+<b>If Not Then Buy Subscription<b> 👇
+
+<b>Buy Paid Plans</b> 👉 - /plan"""
 
 
 
