@@ -6,15 +6,14 @@
 class script(object):
     START_TXT = """<b><blockquote>Hey {}, Welcome To <a href=https://t.me/{}>{}</a></blockquote>
     
-Here You Can Find Many <b>Mythology</b> Serials.
-    
+<b>Here You Can Find Many Indian <b>Mythology</b> Serials.</b> ✨
 ➺ <b>Use</b>: /serials (list of all serials)•
     
 <b>👇 Check Help Button For More Info</b>!!.
     """
 
     HELP_TXT = """<b>Hey {}
-  <b><u>Help Message</u></b>
+<b><u>Help Message</u></b>
 
 ◈ <b>Search With Proper Format !! ✨</b>
 
@@ -23,10 +22,9 @@ Here You Can Find Many <b>Mythology</b> Serials.
 • 
 
 <b>See List of All Serials:</b> /serials
-
 <b>➙ Please Don't Spam in Bot !!</b> 🚨
 
-~ <b><u>Note</u> 📍:</b> All Files will delete after 10 minutes to avoid copyright issues."""
+<b><u>Note</u> 📍:</b> All Files will delete after 10 minutes to avoid copyright issues."""
 
     ABOUT_TXT = """<b><blockquote>Here Is My Details</blockquote>
     
@@ -42,7 +40,7 @@ Here You Can Find Many <b>Mythology</b> Serials.
     SUBSCRIPTION_TXT = """
 <blockquote>Refer Your Link To Your Friend Circle !!</blockquote> <b>& Get Free Premium Of This Bot!!</b> 😍 {}
 
-<b>Refer Link 😎</b> - https://telegram.me/{}?start=VJ-{}
+<b>Refer Link 😎</b> - https://telegram.me/{}?start=Sandip-{}
 
 If {} Unique User Start The Bot With Your Refferal Link Then You Will Automatically Add In **Premium** List!! 😍 .
 
@@ -52,7 +50,7 @@ If {} Unique User Start The Bot With Your Refferal Link Then You Will Automatica
 
 
 
-    MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
+    MANUELFILTER_TXT = """Hᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
 - ꜰɪʟᴛᴇʀ ɪꜱ ᴀ ꜰᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜꜱᴇʀꜱ ᴄᴀɴ ꜱᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇꜱ ꜰᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ ᴀɴᴅ ɪ ᴡɪʟʟ ʀᴇꜱᴘᴏɴᴅ ᴡʜᴇɴᴇᴠᴇʀ ᴀ ᴋᴇʏᴡᴏʀᴅ ɪꜱ ꜰᴏᴜɴᴅ ɪɴ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ
 <b>ɴᴏᴛᴇ:</b>
 1. ᴛʜɪꜱ ʙᴏᴛ ꜱʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟᴇɢᴇ.
@@ -68,7 +66,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
-    BUTTON_TXT = """ʜᴇʟᴘ: <b>ʙᴜᴛᴛᴏɴꜱ</b>
+    BUTTON_TXT = """Hᴇʟᴘ: <b>ʙᴜᴛᴛᴏɴꜱ</b>
 - ᴛʜɪꜱ ʙᴏᴛ ꜱᴜᴘᴘᴏʀᴛꜱ ʙᴏᴛʜ ᴜʀʟ ᴀɴᴅ ᴀʟᴇʀᴛ ɪɴʟɪɴᴇ ʙᴜᴛᴛᴏɴꜱ.
 <b>ɴᴏᴛᴇ:</b>
 1. ᴛᴇʟᴇɢʀᴀᴍ ᴡɪʟʟ ɴᴏᴛ ᴀʟʟᴏᴡꜱ ʏᴏᴜ ᴛᴏ ꜱᴇɴᴅ ʙᴜᴛᴛᴏɴꜱ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴄᴏɴᴛᴇɴᴛ, ꜱᴏ ᴄᴏɴᴛᴇɴᴛ ɪꜱ ᴍᴀɴᴅᴀᴛᴏʀʏ.
@@ -79,7 +77,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 <b>ᴀʟᴇʀᴛ ʙᴜᴛᴛᴏɴꜱ:</b>
 <code>[Button Text](buttonalert:ᴛʜɪꜱ ɪꜱ ᴀɴ ᴀʟᴇʀᴛ ᴍᴇꜱꜱᴀɢᴇ)</code>"""
 
-    AUTOFILTER_TXT = """ʜᴇʟᴘ: <b>ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ</b>
+    AUTOFILTER_TXT = """Hᴇʟᴘ: <b>ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ</b>
 <b>ɴᴏᴛᴇ: Fɪʟᴇ Iɴᴅᴇx</b>
 1. ᴍᴀᴋᴇ ᴍᴇ ᴛʜᴇ ᴀᴅᴍɪɴ ᴏꜰ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ɪꜰ ɪᴛ'ꜱ ᴘʀɪᴠᴀᴛᴇ.
 2. ᴍᴀᴋᴇ ꜱᴜʀᴇ ᴛʜᴀᴛ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴅᴏᴇꜱ ɴᴏᴛ ᴄᴏɴᴛᴀɪɴꜱ ᴄᴀᴍʀɪᴘꜱ, ᴘᴏʀɴ ᴀɴᴅ ꜰᴀᴋᴇ ꜰɪʟᴇꜱ.
@@ -90,7 +88,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 2. Usᴇ /connect ᴀɴᴅ ᴄᴏɴɴᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ ᴛʜᴇ ʙᴏᴛ.
 3. Usᴇ /settings ᴏɴ ʙᴏᴛ's PM ᴀɴᴅ ᴛᴜʀɴ ᴏɴ AᴜᴛᴏFɪʟᴛᴇʀ ᴏɴ ᴛʜᴇ sᴇᴛᴛɪɴɢs ᴍᴇɴᴜ."""
 
-    CONNECTION_TXT = """ʜᴇʟᴘ: <b>ᴄᴏɴɴᴇᴄᴛɪᴏɴꜱ</b>
+    CONNECTION_TXT = """Hᴇʟᴘ: <b>ᴄᴏɴɴᴇᴄᴛɪᴏɴꜱ</b>
 - ᴜꜱᴇᴅ ᴛᴏ ᴄᴏɴɴᴇᴄᴛ ʙᴏᴛ ᴛᴏ ᴘᴍ ꜰᴏʀ ᴍᴀɴᴀɢɪɴɢ ꜰɪʟᴛᴇʀꜱ 
 - ɪᴛ ʜᴇʟᴘꜱ ᴛᴏ ᴀᴠᴏɪᴅ ꜱᴘᴀᴍᴍɪɴɢ ɪɴ ɢʀᴏᴜᴘꜱ.
 <b>ɴᴏᴛᴇ:</b>
@@ -105,26 +103,20 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
-    EXTRAMOD_TXT = """ʜᴇʟᴘ: Exᴛʀᴀ Mᴏᴅᴜʟᴇs
+    EXTRAMOD_TXT = """Hᴇʟᴘ: Exᴛʀᴀ Mᴏᴅᴜʟᴇs
 <b>These Is Extra Feature By Bot !!</b>
 
- ./id - <code>ɢᴇᴛ ɪᴅ ᴏꜰ ᴀ ꜱᴘᴇᴄɪꜰɪᴇᴅ ᴜꜱᴇʀ.</ 
- code> 
-  
- ./info  - <code>ɢᴇᴛ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴀ ᴜꜱᴇʀ.</code> 
-  
- ./song - Download any song [<code>example /song vaa vaathi song</code>] 
-  
- ./telegraph - <code>Telegraph generator sen under 5MB video or photo I give telegraph link</code> 
-  
- ./tts - <code>This command usage text to voice converter</code> 
-  
- ./video - This command usage any YouTube video download hd [<code>example /video https://youtu.be/Aiue8PMuD-k</code>]
-
+./id - <code>ɢᴇᴛ ɪᴅ ᴏꜰ ᴀ ꜱᴘᴇᴄɪꜰɪᴇᴅ ᴜꜱᴇʀ.</ 
+ code>  
+./info  - <code>ɢᴇᴛ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴀ ᴜꜱᴇʀ.</code>  
+./song - Download any song [<code>example /song vaa vaathi song</code>] 
+./telegraph - <code>Telegraph generator sen under 5MB video or photo I give telegraph link</code> 
+./tts - <code>This command usage text to voice converter</code> 
+./video - This command usage any YouTube video download hd [<code>example /video https://youtu.be/Aiue8PMuD-k</code>]
 ./font - This command usage stylish and cool font generator [<code>example /font hi</code>]"""
 
 
-    ADMIN_TXT = """ʜᴇʟᴘ: Aᴅᴍɪɴ Mᴏᴅs
+    ADMIN_TXT = """Hᴇʟᴘ: Aᴅᴍɪɴ Mᴏᴅs
 <b>ɴᴏᴛᴇ:</b>
 Tʜɪs Mᴏᴅᴜʟᴇ Oɴʟʏ Wᴏʀᴋs Fᴏʀ Mʏ Aᴅᴍɪɴs
 Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
@@ -176,11 +168,11 @@ Nᴀᴍᴇ - {}"""
     I_CUDNT = """<b>Sorry !! Episode Not Find For This Request {} 😕
 
 Check Spelling 😃
-
 Search Format 👇
 
-Example : • RadhaKrishn S1 E1
-          • Mahabharat S01E01
+Example : 
+• RadhaKrishn S1 E01
+• Mahabharat S01E01
 
 🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)</b>"""
 
@@ -493,6 +485,516 @@ Example:- /set_caption 📕 File Name: {filename}
 •> /rename - send any file and click rename option and type new file name and \nthen select [ document, video, audio ]👈 choice this.
 """
 
+    SERIALS_TXT = """<b>Select The Year To Get Serial !!</b>\n\n<b>For e.g Mahabharat Serial Released In 2013 You Can Select Year 2013 To Get That Serial</b> !! 🙆"""
+    Y_TXT = """<b>Here Is Available Serials In These Year</b> !!📅\n\n<b>Click Below 👇 To Choose Serials</b>"""
+    
+    LUV_KUSH = """<b>Uttar Ramayan</b> - Luv Kush Leela ✨
+    
+<b>Total Episode :</b> <code>39</code>
+
+<b>About :</b> Luv and Kush, the sons of Lord Rama and Sita, support their mother during her exile from Ayodhya. When they visit Ayodhya, a shocking truth is revealed to them.
+
+<b>How To Search Episode ⁉️</b>
+<code>Luv Kush S01E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    SHRI_KRISHNA = """<b>Shri Krishna</b> ✨
+    
+<b>Total Episode :</b> <code>221</code>
+
+<b>About :</b> When evil takes over the world, Lord Vishnu incarnates into the world as Shri Krishna for the protection of the righteous and the destruction of the wicked.
+
+<b>How To Search Episode ⁉️</b>
+<code>Shri Krishna S01E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    JAI_HANUMAN = """<b>Jai Hanuman</b> ✨
+    
+<b>Total Episode :</b> <code>89</code>
+
+<b>About :</b> Jai Hanuman - Sankat Mochan Naam Tiharo is an Indian television mythology drama series that premiered from 23 August 2022 on Dangal TV. Produced by Alind Srivastava and Nissar Parvez under Peninsula Pictures, it stars Akshay Dogra, Madirakshi Mundle, Amar Upadhyay and Apara Mehta.
+
+<b>How To Search Episode ⁉️</b>
+<code>Jai Hanuman S01E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    MAHABHARAT_OLD = """<b>Mahabharat (1998)</b> ✨
+    
+<b>Total Episode :</b> <code>94</code>
+
+<b>About :</b> When differences between the Kaurava and the Pandava clans, who belong to the same family line, lead them to the threshold of war, Lord Krishna decides to step in and take control of the situation.
+
+<b>How To Search Episode ⁉️</b>
+<code>Mahabharat 1988 S01E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    JAI_MAHALAKSHMI = """<b>Jai Mahalakshmi</b> ✨
+    
+<b>Total Episode :</b> <code>56</code>
+
+<b>About :</b> Goddess Lakshmi is the supreme goddess of wealth and prosperity, Devi Durga took the intense form of Mahalakshmi to protect the world when Lakshmi disappeared preceding Samudra Manthan.
+
+<b>How To Search Episode ⁉️</b>
+<code>Jai Mahalakshmi S01E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    JAI_MAHALAKSHMI = """<b>Shiv Mahapuran</b> ✨
+    
+<b>Total Episode :</b> <code>61</code>
+
+<b>About :</b> The story of Indian God Shiv. It includes various stories of demons and Gods involved in Hindu Mythology.
+
+<b>How To Search Episode ⁉️</b>
+<code>Shiv Mahapuran S01E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    MEERA = """<b>Meera 2008</b> ✨
+    
+<b>Total Episode :</b> <code>134</code>
+
+<b>About :</b> Meera, a young Rajput princess, is overcome with love and devotion to Lord Krishna and sacrifices everything in her life to become a saint and poet.
+
+<b>How To Search Episode ⁉️</b>
+<code>Meera S01E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    LITTLE_KRISHNA = """<b>Little Krishna</b> ✨
+    
+<b>Total Episode :</b> <code>13</code>
+
+<b>About :</b> Little Krishna, a mischievous child, lives in the village of Vrindavan. He decides to save the villagers from an evil king, Kamsa, who sends ferocious demons upon them.
+
+<b>How To Search Episode ⁉️</b>
+<code>Little Krishna S01E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    DWARKADHEESH = """<b>Dwarkadheesh</b> ✨
+    
+<b>Total Episode :</b> <code>204</code>
+
+<b>About :</b> After becoming the king of Dwarka, Lord Krishna becomes a protector and maintains relationships with his family members and loved ones.
+
+<b>How To Search Episode ⁉️</b>
+<code>Dwarkadheesh S01E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    DKDM = """<b>Devon Ke Dev Mahadev</b> ✨
+    
+<b>Total Episode :</b> <code>820</code>
+
+<b>About :</b> Lord Shiva, an ascetic, and his divine consort, Goddess Shakti, create the universe. However, they separate for the sake of it and are reunited when she is reincarnated as Goddess Parvati.
+
+<b>How To Search Episode ⁉️</b>
+<code>Devon ke Dev Mahadev S01E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    BUDDHA = """<b>Buddha</b> ✨
+    
+<b>Total Episode :</b> <code>55</code>
+
+<b>About :</b> Prince Siddhartha's father shelters him from witnessing the sufferings of life. However, being curious by nature, he comes across the various stages of suffering and sets out to attain enlightenment.
+
+<b>How To Search Episode ⁉️</b>
+<code>Buddha S01 E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    MAHABHARAT_NEW = """<b>MahaBharat (2013)</b> ✨
+    
+<b>Total Episode :</b> <code>267</code>
+
+<b>About :</b> The mother of all wars, the epitome of all rivalries, the cauldron of emotions, insecurities, jealousies, and power play - Mahabharat!
+
+<b>How To Search Episode ⁉️</b>
+<code>Mahabharat S01E01 HS</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    HATIM = """<b>The Adventures Of Hatim</b> ✨
+    
+<b>Total Episode :</b> <code>68</code>
+
+<b>About :</b> Hatim, the Prince of Yemen, lives a graceful life. However, things change when he has to solve the seven riddles to defeat the wicked sorcerer Zargam.
+
+<b>How To Search Episode ⁉️</b>
+<code>Hatim S01E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    SURYAPUTRA_KARN = """<b>Suryaputra Karn</b> ✨
+    
+<b>Total Episode :</b> <code>307</code>
+
+<b>About :</b> Karna, son of Surya and Kunti and the doyen of archers, endures a challenging journey on his way to becoming one of the greatest warriors of the Mahabharata.
+
+<b>How To Search Episode ⁉️</b>
+<code>Suryaputra karn E1</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    SIYA_KE_RAM = """<b>Siya Ke Ram</b> ✨
+    
+<b>Total Episode :</b> <code>304</code>
+
+<b>About :</b> After their marriage, Rama and Shinta must go into exile because Queen Kaikeyi wants her son Bharata to assume the throne. Their relationship is tested again when Shinta is kidnapped by Rahwana.
+
+<b>How To Search Episode ⁉️</b>
+<code>Siya ke ram S01E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    KRISHNA_BALRAM = """<b>Krishna Balram</b> ✨
+    
+<b>Total Episode :</b> <code>65</code>
+
+<b>About :</b> Follow through the thrilling capers and chilling escapades of Krishna and Balram, with Radha, and friends in this all new, action packed, adrenaline churning series.
+
+<b>How To Search Episode ⁉️</b>
+<code>Krishna Balram S01E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    MAA_SHAKTI = """<b>Maa Shakti</b> ✨
+    
+<b>Total Episode :</b> <code>78</code>
+
+<b>About :</b> Take a look at the depiction of Maa Shakti who is known as the divine force in Hinduism. She is considered the source of power and creation and can transform herself into various forms.
+
+<b>How To Search Episode ⁉️</b>
+<code>Maa Shakti S01E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    KBM_GANESH_KI_SAVARI = """<b>Kaise Bane Mushak Ganeshji Ki Savari?</b> ✨
+    
+<b>Total Episode :</b> <code>08</code>
+
+<b>About :</b> Ganesh arrives in Devlok and engages in a fierce battle with Mushikasur. Ganesh seeks Somnandi's help to fight Mushikasur and his army of mice...
+
+<b>How To Search Episode ⁉️</b>
+<code>KBMGKS S01 E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    RADHAKRISHN = """<b>Radhakrishn (2018)</b> ✨
+    
+<b>Total Episode :</b> <code>1145</code>
+
+<b>About :</b> Lord Krishna and Radha share pure love for one another but things take a turn when Radha receives a curse that she will be separated from him.
+
+<b>How To Search Episode ⁉️</b>
+<code>Radhakrishn S1 E1</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    KARN_SANGINI = """<b>Karn Sangini</b> ✨
+    
+<b>Total Episode :</b> <code>90</code>
+
+<b>About :</b> Urvi is a princess of noble birth and her parents want her to marry her childhood friend Arjun. However, she falls for the Karna, a man of low caste and invites a whole set of problems.
+
+<b>How To Search Episode ⁉️</b>
+<code>Karn Sangini S01E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    M_VADH = """<b>Mahishasura Vadh</b> ✨
+    
+<b>Total Episode :</b> <code>10</code>
+
+<b>About :</b> Mahishasura Vadh is a mini-series based on the remarkable story of how Goddess Durga killed the powerful buffalo demon Mahishasura, exemplifying...
+
+<b>How To Search Episode ⁉️</b>
+<code>Mahishasur vadh S01E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    SB_MAHAPURAN = """<b>Shrimad Bhagwat Mahapuran</b> ✨
+    
+<b>Total Episode :</b> <code>00</code>
+
+<b>About :</b> In a divine discourse with Radha, Lord Krishna takes it upon himself to explain texts from the ancient and fabled Srimad Bhagwat, sacred in Hinduism, which offers mankind profound spiritual knowledge.
+
+<b>How To Search Episode ⁉️</b>
+<code>Shrimad Bhagwat Mahapuran S01 E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    JJMV = """<b>Jag Jaanani Maa Vaishnodevi</b> ✨
+    
+<b>Total Episode :</b> <code>207</code>
+
+<b>About :</b> The goddesses combine their powers to create Goddess Vaishnodevi and task her with the responsibility of destroying the forces of evil that threaten to destroy Earth.
+
+<b>How To Search Episode ⁉️</b>
+<code>Jag Jaanani Maa Vaishnodevi S01E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    NAMAH = """<b>Namah Lakshmi Narayan</b> ✨
+    
+<b>Total Episode :</b> <code>65</code>
+
+<b>About :</b> Eternal friends Lord Mahadev and Lord Narayan are quite different from each other but maintain a harmonious relationship. Soon, things change as their bond is challenged by the arrival of Kalyug.
+
+<b>How To Search Episode ⁉️</b>
+<code>Namah Laxmi Narayan S01E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    DEVA_SHREE_GANESHA = """<b>Deva Shree Ganesha</b> ✨
+    
+<b>Total Episode :</b> <code>11</code>
+
+<b>About :</b> People celebrate Ganesh Chaturthi, which is dedicated to Lord Ganesh, the remover of obstacles. Devotees bring home idols and adorn them with garlands, perform 'aartis' and distribute sweets.
+
+<b>How To Search Episode ⁉️</b>
+<code>Deva Shree Ganesha S01E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    DEV_ADI_PARASHAKTI = """<b>Devi Adi Parashakti</b> ✨
+    
+<b>Total Episode :</b> <code>87</code>
+
+<b>About :</b> Devi Adi Parashakti, the goddess of the universe, takes various forms on Earth in order to guide mankind towards humanity and compassion.
+
+<b>How To Search Episode ⁉️</b>
+<code>Devi Adi Parashakti S01E01 </code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    KAHAT_HANUMAN_JSRAM = """<b>Kahat Hanuman Jaishree Ram</b> ✨
+    
+<b>Total Episode :</b> <code>120</code>
+
+<b>About</b> : Hanuman, a beloved deity in Hinduism, conquers various obstacles and overcomes insurmountable challenges in his quest to rid the world of evil.
+
+<b>How To Search Episode ⁉️</b>
+<code>Kahat Hanuman S01E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    BAAL_SHIV = """<b>Baal Shiv</b> ✨
+    
+<b>Total Episode :</b> <code>215</code>
+
+<b>About</b> : Lord Shiva in his younger avatar, faces several challenges as he strives to uphold justice in his realm and facilitates the destruction of evil forces.
+
+<b>How To Search Episode ⁉️</b>
+<code>Baal Shiv S01E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    JKLK = """<b>Jai Kanhaiya Lal Ki</b> ✨
+    
+<b>Total Episode :</b> <code>185</code>
+
+<b>About</b> : Young Krishna grows up with a strong bond with his mother, Devaki, and his foster-mother, Yashoda. However, his power and strength are tested when he must protect his family and village from the evil Kans.
+
+<b>How To Search Episode ⁉️</b>
+<code>Jai kanhaiya Lal ki S01E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    KASHIBAI = """<b>Kashibai</b> ✨
+    
+<b>Total Episode :</b> <code>201</code>
+
+<b>About</b> : Kashibai is raised as a spoiled child. She faces challenges as an adult when her husband Peshwa works to expand the Maratha empire and she must prove her capabilities to become an administrator.
+
+<b>How To Search Episode ⁉️</b>
+<code>Kashibai S01E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    THE_LEGEND_OF_HANUMAN = """<b>The Legend of Hanuman</b> ✨
+    
+<b>Total Episode :</b> <code>32</code>
+
+<b>About</b> : Lord Mahadev is reborn as Hanuman to serve Lord Rama, and becomes a beacon of hope amidst the harrowing darkness.
+
+<b>How To Search Episode ⁉️</b>
+<code>The Legend of Hanuman S01E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    BRIJ_KE_GOPAL = """<b>Brij Ke Gopal</b> ✨
+    
+<b>Total Episode :</b> <code>48</code>
+
+<b>About</b> : Lord Krishna incarnates as a human on Earth to end the agony of his devotees and battle against evil, restoring the faith of people in good.
+
+<b>How To Search Episode ⁉️</b>
+<code>Brij ke Gopal S1 Episode 1</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    GARUD = """<b>Dharm Yoddha Garud</b> ✨
+    
+<b>Total Episode :</b> <code>234</code>
+
+<b>About</b> : Garud, a mighty warrior, strives to maintain peace and fights injustice. He faces off powerful adversaries while protecting and helping those in need.
+
+<b>How To Search Episode ⁉️</b>
+<code>Garud S01E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    PARSHURAM = """<b>Parshuram</b> ✨
+    
+<b>Total Episode :</b> <code>160</code>
+
+<b>About</b> : Parashurama, the sixth incarnation of the God Vishnu, comes to Earth with the sole purpose of fighting off all evil and protecting humans.
+
+<b>How To Search Episode ⁉️</b>
+<code>Parshuram S01 E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    K_SHANIDEV = """<b>Karmadhikari Shanidev</b> ✨
+    
+<b>Total Episode :</b> <code>39</code>
+
+<b>About</b> : Karmadhikari Shanidev is an Indian Mythology television series produced by Triangle Film Company and premiered on 11 December 2023 on Shemaroo TV.
+
+<b>How To Search Episode ⁉️</b>
+<code>Karmadhikari Shanidev S01E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    SHIV_SHAKTI = """<b>Shiv Shakti</b> ✨
+    
+<b>Total Episode :</b> <code>Running...</code>
+
+<b>About</b> : Lord Shiva and his wife, Goddess Parvati, navigate their relationship and duties and offer sacrifices and brave separation to selflessly care for humanity.
+
+<b>How To Search Episode ⁉️</b>
+<code>Shiv Shakti S01E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    SHRIMAD_RAMAYAN = """<b>Shrimad Ramayan</b> ✨
+    
+<b>Total Episode :</b> <code>Running...</code>
+
+<b>About</b> : A religious leader reads out the Ramayana and explains it to a large gathering of devotees in a brief, simple and easy-to-understand manner.
+
+<b>How To Search Episode ⁉️</b>
+<code>Shrimad Ramayan S01E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    P_ASHOK = """<b>Prachand Ashok</b> ✨
+    
+<b>Total Episode :</b> <code>Running...</code>
+
+<b>About</b> : Prachand Ashoka is an upcoming historical soap opera produced by Balaji Telefilms. It stars Adnan Khan, Simba Nagpal, Tanusri Dasgupta and Mallika Singh. The serial story is based on the story of Emperor Ashoka. The show will be aired on Colors TV in January 2024.
+
+<b>How To Search Episode ⁉️</b>
+<code>Pracchand Ashok S01E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    C_HANUMAN = """<b>Chiranjeevi Hanuman</b> ✨
+    
+<b>Total Episode :</b> <code>Coming Soon...</code>
+
+<b>About</b> : Coming Soon
+
+<b>How To Search Episode ⁉️</b>
+<code>Not Released Yet !!</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    DISC_RAMAYAN = """
+<b>Legends of the Ramayana with Amish</b>
+
+<b>About</b> : We begin our journey from the ancient city of Ayodhya, where we reveal some intriguing secrets. The current day crown prince of this once powerful city tells us about the moral complexities of the Ramayana and how they remain relevant to India.
+
+<b>Total Episode</b> : 3 (In 3 Qualities) 
+..
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    DR_360p = """
+<b>Your Link Is Genrated !! 🥳</b>
+
+<b>Info</b> : Quality 360p And All 3 Episode Added In This Link Open And Get The Episode!!
+
+<b>CLICK HERE 👇</b>
+(https://clk.asia/1HJ13m)
+_
+"""
+    DR_480p = """
+<b>Your Link Is Genrated !! 🥳</b>
+
+<b>Info</b> : Quality 480p And All 3 Episode Added In This Link Open And Get The Episode!!
+
+<b>CLICK HERE 👇</b>
+(https://clk.asia/fGrTA)
+_
+"""
+    DR_720p = """
+<b>Your Link Is Genrated !! 🥳</b>
+
+<b>Info</b> : Quality 720p And All 3 Episode Added In This Link Open And Get The Episode!!
+
+<b>CLICK HERE 👇</b>
+(https://clk.asia/sL2vm3)
+_
+"""
+    DR_1080p = """
+<b>Sorry!</b> This Quality Is Not Available ❗️
+"""
     STREAM_TXT = """<b><u>HOW TO GET STREAM AND DOWNLOAD LINK :</u>
 
 /stream - ɢᴇᴛ sᴛʀᴇᴀᴍᴀʙʟᴇ ᴀɴᴅ ᴅᴏᴡɴʟᴏᴀᴅᴀʙʟᴇ ʟɪɴᴋ ᴏғ ᴀɴʏ ғɪʟᴇ</b>"""
