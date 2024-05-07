@@ -42,7 +42,7 @@ Here You Can Find Many <b>Mythology</b> Serials.
     SUBSCRIPTION_TXT = """
 <blockquote>Refer Your Link To Your Friend Circle !!</blockquote> <b>& Get Free Premium Of This Bot!!</b> 😍 {}
 
-<b>Refer Link 😎</b> - https://telegram.me/{}?start=Sandip-{}
+<b>Refer Link 😎</b> - https://telegram.me/{}?start=VJ-{}
 
 If {} Unique User Start The Bot With Your Refferal Link Then You Will Automatically Add In **Premium** List!! 😍 .
 
