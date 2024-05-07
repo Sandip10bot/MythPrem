@@ -4,22 +4,20 @@
 
 
 class script(object):
-    START_TXT = """<b><blockquote>Hey {}, Welcome To <a href=https://t.me/{}>{}</a></blockquote>
+    START_TXT = """<b>Hey {}, Welcome To <a href=https://t.me/{}>{}</a></b>
     
-<b>Here You Can Find Many Indian <b>Mythology</b> Serials.</b> ✨
-➺ <b>Use</b>: /serials (list of all serials)•
+<blockquote><b>Here You Can Find Many Indian <b>Mythology</b> Serials.</b> ✨
+➺ <b>Use</b>: /serials (list of all serials) • </blockquote>
     
 <b>👇 Check Help Button For More Info</b>!!.
     """
 
-    HELP_TXT = """<b>Hey {}
-<b><u>Help Message</u></b>
+    HELP_TXT = """<b><u>Help Message</u></b>
 
 ◈ <b>Search With Proper Format !! ✨</b>
 
-• <code>RadhaKrishn S1 E1</code> ✅
+• <code>RadhaKrishn S1 E01</code> ✅
 • <code>Mahabharat S01E01</code> ✅
-• 
 
 <b>See List of All Serials:</b> /serials
 <b>➙ Please Don't Spam in Bot !!</b> 🚨
@@ -50,8 +48,8 @@ If {} Unique User Start The Bot With Your Refferal Link Then You Will Automatica
 
 
 
-    MANUELFILTER_TXT = """Hᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
-- ꜰɪʟᴛᴇʀ ɪꜱ ᴀ ꜰᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜꜱᴇʀꜱ ᴄᴀɴ ꜱᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇꜱ ꜰᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ ᴀɴᴅ ɪ ᴡɪʟʟ ʀᴇꜱᴘᴏɴᴅ ᴡʜᴇɴᴇᴠᴇʀ ᴀ ᴋᴇʏᴡᴏʀᴅ ɪꜱ ꜰᴏᴜɴᴅ ɪɴ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ
+    MANUELFILTER_TXT = """Hᴇʟᴘ: <b>Fɪʟᴛᴇʀꜱ</b>
+- Fiʟᴛᴇʀ ɪꜱ ᴀ ꜰᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜꜱᴇʀꜱ ᴄᴀɴ ꜱᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇꜱ ꜰᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ ᴀɴᴅ ɪ ᴡɪʟʟ ʀᴇꜱᴘᴏɴᴅ ᴡʜᴇɴᴇᴠᴇʀ ᴀ ᴋᴇʏᴡᴏʀᴅ ɪꜱ ꜰᴏᴜɴᴅ ɪɴ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ
 <b>ɴᴏᴛᴇ:</b>
 1. ᴛʜɪꜱ ʙᴏᴛ ꜱʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟᴇɢᴇ.
 2. ᴏɴʟʏ ᴀᴅᴍɪɴꜱ ᴄᴀɴ ᴀᴅᴅ ꜰɪʟᴛᴇʀꜱ ɪɴ ᴀ ᴄʜᴀᴛ.
@@ -154,16 +152,11 @@ Aᴅᴅᴇᴅ Bʏ - {}"""
 ID - <code>{}</code>
 Nᴀᴍᴇ - {}"""
 
-    ALRT_TXT = """ʜᴇʟʟᴏ {},
-ᴛʜɪꜱ ɪꜱ ɴᴏᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ,
-ʀᴇQᴜᴇꜱᴛ ʏᴏᴜʀ'ꜱ..."""
+    ALRT_TXT = """Hello {}, This is Not Your's"""
 
-    OLD_ALRT_TXT = """ʜᴇʏ {},
-ʏᴏᴜ ᴀʀᴇ ᴜꜱɪɴɢ ᴏɴᴇ ᴏꜰ ᴍʏ ᴏʟᴅ ᴍᴇꜱꜱᴀɢᴇꜱ, 
-ᴘʟᴇᴀꜱᴇ ꜱᴇɴᴅ ᴛʜᴇ ʀᴇQᴜᴇꜱᴛ ᴀɢᴀɪɴ."""
+    OLD_ALRT_TXT = """Hey {}, You are using one of my old message, try search again!. """
 
-    CUDNT_FND = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏᴛʜɪɴɢ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}
-ᴅɪᴅ ʏᴏᴜ ᴍᴇᴀɴ ᴀɴʏ ᴏɴᴇ ᴏꜰ ᴛʜᴇꜱᴇ?"""
+    CUDNT_FND = """I couldn't find anything related to {}, search with proper spelling and format."""
 
     I_CUDNT = """<b>Sorry !! Episode Not Find For This Request {} 😕
 
@@ -189,13 +182,13 @@ Example :
 🫵 Select Your Language And Earn Money 💰"""
 
     REQINFO = """
-⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠
+⚠ Information ⚠
 
-ᴀꜰᴛᴇʀ 5 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ
+After 5 Min this message automatically delete to avoid copyright.
+And If your Requested files not shown, check Another Page.
+Thank You."""
 
-ɪꜰ ʏᴏᴜ ᴅᴏ ɴᴏᴛ ꜱᴇᴇ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ / sᴇʀɪᴇs ꜰɪʟᴇ, ʟᴏᴏᴋ ᴀᴛ ᴛʜᴇ ɴᴇxᴛ ᴘᴀɢᴇ"""
-
-    SELECT = """sᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴘʀᴇғᴇʀʀᴇᴅ ʟᴀɴɢᴜᴀɢᴇ, ǫᴜᴀʟɪᴛʏ, sᴇᴀsᴏɴ ᴀɴᴅ ᴇᴘɪsᴏᴅᴇ"""
+    SELECT = """Select Your Preferred Language, Quality, Episodes, Seasons."""
 
     SINFO = """
 🫣 For Movie Join First Then Click On Try Again Button 😅"""
@@ -209,7 +202,7 @@ Example :
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
+    CAPTION = """<b>📂 Fɪʟᴇɴᴀᴍᴇ : {file_name}
 
 <b> Size ⚙️: {file_size}</b>""" 
 
@@ -227,10 +220,8 @@ IMDb Data:
 📆 Release Info : {release_date}
 🎛 Countries : <code>{countries}</code>
 
-
-⏰Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
-
-Requested by : {message.from_user.mention}</b>"""
+⏰ Result Shown in: {remaining_seconds} <i>secs</i> 🔥
+👨 Requested by : {message.from_user.mention}</b>"""
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
@@ -254,43 +245,33 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 • /plink - <code>Jᴜsᴛ ʟɪᴋᴇ /link, ʙᴜᴛ ᴛʜᴇ ғɪʟᴇ ᴡɪʟʟ ʙᴇ sᴇɴᴅ ᴡɪᴛʜ ғᴏʀᴡᴀʀᴅ ʀᴇsᴛʀɪᴄᴛɪᴏɴ.</code>"""
 
     SONG_TXT = """<b>Dowload Any Song</b> 
-      
- <b>ꜱᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴏᴅᴜʟᴇ, ꜰᴏʀ ᴛʜᴏꜱᴇ ᴡʜᴏ ʟᴏᴠᴇ ᴍᴜꜱɪᴄ. yᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴛʜɪꜱ ꜰᴇᴀᴛᴜᴇ ꜰᴏʀ ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴy ꜱᴏɴɢ ᴡɪᴛʜ ꜱᴜᴩᴇʀ ꜰᴀꜱᴛ ꜱᴩᴇᴇᴅ. ᴡᴏʀᴋꜱ ʙᴏᴛ ᴀɴᴅ ɢʀᴏᴜᴩꜱ ᴏɴʟy...</b> 
+
+You can download any songs just by searching songs name in Best Quality!
+<b>Cᴏᴍᴍᴀɴᴅꜱ</b> : /song Name Of Song""" 
   
- <b>ᴄᴏᴍᴍᴀɴᴅꜱ</b> :<b>/song Name Of Song</b>""" 
+    YTDL_TXT = """<b>You can Download Short Videos From YouTube. 
   
-    YTDL_TXT = """<b>ʜᴇʟᴩ yᴏᴜ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅᴇᴏ ꜰʀᴏᴍ yᴏᴜᴛᴜʙᴇ. 
+• Support Short length Video. 
+<b>Cᴏᴍᴍᴀɴᴅꜱ</b> : /video ᴏʀ /mp4 
   
- ᴜꜱᴀɢᴇ : yᴏᴜ ᴄᴀɴ ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴy ᴠɪᴅᴇᴏ ꜰʀᴏᴍ yᴏᴜᴛᴜʙᴇ 
+ᴇxᴀᴍᴩʟᴇ :<code>/mp4 https://youtu.be/example...</code></b>""" 
   
- ʜᴏᴡ ᴛᴏ ᴜꜱᴇ : ᴛyᴩᴇ - /video ᴏʀ /mp4 
+    TTS_TXT = """<b> 🎤 TTS: Translate to Speach.
+• Uꜱᴀɢᴇ :</b> /tts""" 
   
- ᴇxᴀᴍᴩʟᴇ :<code>/mp4 https://youtu.be/example...</code></b>""" 
+    GTRANS_TXT = """<b>Google Translater</b> 🗣️
   
-    TTS_TXT = """<b>ᴛᴛꜱ 🎤 ᴍᴏᴅᴜʟᴇ : ᴛʀᴀɴꜱʟᴀᴛᴇ ᴛᴇxᴛ ᴛᴏ ꜱᴩᴇᴇᴄʜ 
+You can also translate message in Pm and Groups in different languages.
+<b>Cᴏᴍᴍᴀɴᴅꜱ</b> : /tr en (as reply)
+
+• You need ti specify the language when Translate.
+"""
   
- ᴄᴏᴍᴍᴀɴᴅꜱ ᴀɴᴅ ᴜꜱᴀɢᴇ : /tts</b>""" 
-  
-    GTRANS_TXT = """<b>Google Translater
-  
- ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ʜᴇʟᴩꜱ yᴏᴜ ᴛᴏ ᴛʀᴀɴꜱʟᴀᴛᴇ ᴀ ᴛᴇxᴛ ᴛᴏ ᴀɴy ʟᴀɴɢᴜᴀɢᴇꜱ yᴏᴜ ᴡᴀɴᴛ. ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ᴡᴏʀᴋꜱ ᴏɴ ʙᴏᴛʜ ᴩᴍ ᴀɴᴅ ɢʀᴏᴜᴏ  
-  
- ᴄᴏᴍᴍᴀɴᴅꜱ ᴀɴᴅ ᴜꜱᴀɢᴇ : /tr - ᴛᴏ ᴛʀᴀɴꜱʟᴀᴛᴇʀ ᴛᴇxᴛꜱ ᴛᴏ ᴀ ꜱᴩᴇᴄɪꜰᴄ ʟᴀɴɢᴜᴀɢᴇ 
-  
- ɴᴏᴛᴇ: ᴡʜɪʟᴇ ᴜꜱɪɴɢ /tr yᴏᴜ ꜱʜᴏᴜʟᴅ ꜱᴩᴇᴄɪꜰy ᴛʜᴇ ʟᴀɴɢᴜᴀɢᴇ ᴄᴏᴅᴇ 
-  
- ᴇxᴀᴍᴩʟᴇ: /𝗍𝗋 ᴍʟ 
- • ᴇɴ = ᴇɴɢʟɪꜱʜ 
- • ᴍʟ = ᴍᴀʟᴀyᴀʟᴀᴍ 
- • ʜɪ = ʜɪɴᴅɪ</b>""" 
-  
-    TELE_TXT = """<b>ʜᴇʟᴘ: ᴛᴇʟᴇɢʀᴀᴘʜ ᴅᴏ ᴀꜱ ʏᴏᴜ ᴡɪꜱʜ ᴡɪᴛʜ ᴛᴇʟᴇɢʀᴀ.ᴘʜ ᴍᴏᴅᴜʟᴇ! 
-  
- ᴜꜱᴀɢᴇ: /telegraph - ꜱᴇɴᴅ ᴍᴇ ᴘɪᴄᴛᴜʀᴇ ᴏʀ ᴠɪᴅᴇ ᴜɴᴅᴇʀ (5ᴍʙ) 
-  
- ɴᴏᴛᴇ: 
- ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ɪꜱ ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ɢᴏᴜᴘꜱ ᴀɴᴅ ᴘᴍꜱ 
- ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ᴄᴀɴ ʙᴇ ᴜꜱᴇᴅ ʙʏ ᴇᴠᴇʀʏᴏɴᴇ</b>""" 
+    TELE_TXT = """<b>Telegraph Upload</b>
+
+Can Upload 5 MB file and Images on Telegraph by this command.
+<b>Cᴏᴍᴍᴀɴᴅꜱ</b> : /telegraph (as reply to images)
+""" 
   
     CORONA_TXT = """<b>ʜᴇʟᴩ: ᴄᴏᴠɪᴅ 
   
@@ -335,30 +316,13 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
  • ꜱʜᴀʀᴇ ᴜꜱ ꜰᴏʀ ᴍᴏʀᴇ ꜰᴇᴀᴛᴜʀᴇꜱ 
   </b>""" 
   
-    STICKER_TXT = """<b>yᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴛʜɪꜱ ᴍᴏᴅᴜʟᴇ ᴛᴏ ꜰɪɴᴅᴀɴy  ꜱᴛɪᴄᴋᴇʀꜱ ɪᴅ. 
- • ᴜꜱᴀɢᴇ :ᴛᴏ ɢᴇᴛ ꜱᴛɪᴄᴋᴇʀ 
-   
- ⭕ ʜᴏᴡ ᴛᴏ ᴜꜱᴇ 
- /stickerid
- </b>""" 
+    STICKER_TXT = """**Find Any Sticker Id:** /stickerid""" 
   
-    FONT_TXT= """<b>ᴜꜱᴀɢᴇ 
+    FONT_TXT= """You can stylish your text by different Fonts.
+<b>Cᴏᴍᴍᴀɴᴅꜱ</b> : /font Your Text Here
+""" 
   
- yᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴛʜɪꜱ ᴍᴏᴅᴜʟᴇ ᴛᴏ ᴄʜᴀɴɢᴇ ꜰᴏɴᴛ ꜱᴛyʟᴇ   
-  
- ᴄᴏᴍᴍᴀɴᴅ : /font yᴏᴜʀ ᴛᴇxᴛ (ᴏᴩᴛɪᴏɴᴀʟ) 
- ᴇɢ:- /font ʜᴇʟʟᴏ 
-  
- </b>""" 
-  
-    PURGE_TXT = """<b>ᴘᴜʀɢᴇ 
-      
- ᴅᴇʟᴇᴛᴇ ᴀ ʟᴏᴛ ᴏꜰ ᴍᴇssᴀɢᴇs ꜰʀᴏᴍ ɢʀᴏᴜᴘs!  
-      
-  ᴀᴅᴍɪɴ  
-  
- ◉ /purge :- ᴅᴇʟᴇᴛᴇ ᴀʟʟ ᴍᴇssᴀɢᴇs ꜰʀᴏᴍ ᴛʜᴇ ʀᴇᴘʟɪᴇᴅ ᴛᴏ ᴍᴇssᴀɢᴇ, ᴛᴏ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴍᴇssᴀɢᴇ</b>""" 
-  
+    PURGE_TXT = """/purge: Delete messages in groups."""
     WHOIS_TXT = """<b>ᴡʜᴏɪꜱ ᴍᴏᴅᴜʟᴇ 
   
  ɴᴏᴛᴇ:- ɢɪᴠᴇ ᴀ ᴜꜱᴇʀ ᴅᴇᴛᴀɪʟꜱ 
