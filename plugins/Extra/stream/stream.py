@@ -11,7 +11,7 @@ import random
 async def stream_start(client, message):
     if STREAM_MODE == False:
         return 
-    msg = await client.ask(message.chat.id, "**Now send me your file/video to get stream and download link**")
+    msg = await client.ask(message.chat.id, "**Now send me your file/video to get stream and download link.**")
     if not msg.media:
         return await message.reply("**Please send me supported media.**")
     if msg.media in [enums.MessageMediaType.VIDEO, enums.MessageMediaType.DOCUMENT]:
@@ -31,7 +31,7 @@ async def stream_start(client, message):
         download = f"{URL}{str(log_msg.id)}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
  
         await log_msg.reply_text(
-            text=f"•• ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴇᴅ ꜰᴏʀ ɪᴅ #{user_id} \n•• ᴜꜱᴇʀɴᴀᴍᴇ : {username} \n\n•• ᖴᎥᒪᗴ Nᗩᗰᗴ : {fileName}",
+            text=f"•• Lɪɴᴋ Gᴇɴᴇʀᴀᴛᴇᴅ Fᴏʀ ID #{user_id}\n•• Uꜱᴇʀɴᴀᴍᴇ : {username}\n\n•• ᖴᎥᒪᗴ Nᗩᗰᗴ : {fileName}",
             quote=True,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🚀 Fast Download 🚀", url=download),  # we download Link
@@ -45,6 +45,6 @@ async def stream_start(client, message):
                 ]
             ] 
         )
-        msg_text = """<i><u>𝗬𝗼𝘂𝗿 𝗟𝗶𝗻𝗸 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 !</u></i>\n\n<b>📂 Fɪʟᴇ ɴᴀᴍᴇ :</b> <i>{}</i>\n\n<b>📦 Fɪʟᴇ ꜱɪᴢᴇ :</b> <i>{}</i>\n\n<b>📥 Dᴏᴡɴʟᴏᴀᴅ :</b> <i>{}</i>\n\n<b> 🖥ᴡᴀᴛᴄʜ  :</b> <i>{}</i>\n\n<b>🚸 Nᴏᴛᴇ : ʟɪɴᴋ ᴡᴏɴ'ᴛ ᴇxᴘɪʀᴇ ᴛɪʟʟ ɪ ᴅᴇʟᴇᴛᴇ</b>"""
+        msg_text = """<u>𝗬𝗼𝘂𝗿 𝗟𝗶𝗻𝗸 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 !</u>\n\n<b>📂 Fɪʟᴇ ɴᴀᴍᴇ :</b> {}\n\n<b>📦 Fɪʟᴇ ꜱɪᴢᴇ :</b>{}\n\n<b>📥 Dᴏᴡɴʟᴏᴀᴅ :</b> {}\n\n<b> 🖥 Wᴀᴛᴄʜ  :</b> {}\n\n<b>🚸 <b>Nᴏᴛᴇ</b> : Liɴᴋ ᴡᴏɴ'ᴛ Exᴘɪʀᴇ tɪʟʟ i Dᴇʟᴇᴛᴇ</b>"""
 
         await message.reply_text(text=msg_text.format(get_name(log_msg), humanbytes(get_media_file_size(msg)), download, stream), quote=True, disable_web_page_preview=True, reply_markup=rm)
