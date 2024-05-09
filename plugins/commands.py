@@ -1480,7 +1480,7 @@ async def check_plans_cmd(client, message):
     if await db.has_premium_access(user_id):         
         remaining_time = await db.check_remaining_uasge(user_id)             
         expiry_time = remaining_time + datetime.datetime.now()
-        await message.reply_text(f"**Your plans details are :\n\nRemaining Time : {remaining_time}\n\nExpirytime : {expiry_time}**")
+        await message.reply_text(f"<b>Your plans details are</b> :\n\n<b>Remaining Time</b> : {remaining_time}\n\n<b>Expirytime</b> : {expiry_time}")
     else:
         btn = [ 
             [InlineKeyboardButton("Free Trial For 5 Min ☺️", callback_data="get_trail")],
