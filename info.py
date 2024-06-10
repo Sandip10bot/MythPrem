@@ -61,7 +61,7 @@ PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', True)) #
 REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '20')) # number of referal count
 REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '1month')
 PAYMENT_QR = environ.get('PAYMENT_QR', 'https://graph.org/file/76ca16cbf2743324828a3.jpg')
-PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<b> Here Is Available Plan \n\n• Rs.10 = 1 Week \n• Rs.20 = 1 Month\n\n🤩 Premium Feature 🥳\n\n○ ❌ No Ads\n○ Direct Files 📂\n\n ✨ Buy Subscription - @SR_Contact_Bot \n\nCheck Your Active Plan 👉 /myplan\n\n\nThank You 😍</b>')
+PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<b> Here Is Available Plan \n\n ₹29 Per Month Only ! ₹0.96 a Day \n\n🤩 Premium Feature 🥳\n\n○ ❌ No Ads\n○ Direct Files 📂\n\n ✨ Buy Subscription - @sandip10x \n\nCheck Your Active Plan 👉 /myplan\n\n\nThank You 😍</b>')
 OWNER_USERNAME = environ.get('OWNER_USERNAME', 'Sandip10x') # owner username without @
 
 # Links
